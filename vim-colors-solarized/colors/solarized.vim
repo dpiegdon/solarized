@@ -758,6 +758,11 @@ hi! link gitcommitUnmergedArrow  gitcommitUnmergedFile
 "exe "hi! gitcommitOverflow"
 "exe "hi! gitcommitBlank"
 " }}}
+" gdb highlighting {{{
+" ---------------------------------------------------------------------
+exe "hi! debugPC"           .s:fmt_revb .s:fg_magenta
+exe "hi! debugBreakpoint"   .s:fmt_revb .s:fg_red
+" }}}
 " html highlighting "{{{
 " ---------------------------------------------------------------------
 exe "hi! htmlTag"           .s:fmt_none .s:fg_base01 .s:bg_none
